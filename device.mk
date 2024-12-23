@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 $(call inherit-product, vendor/xiaomi/onclite/onclite-vendor.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
